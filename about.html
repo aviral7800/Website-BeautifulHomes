@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Homes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <!-- <li><a href="">WHY US</a></li> -->
+                <!-- <li><a href="">FEATURED</a></li> -->
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+    <h1>About Us</h1>
+
+</section>
+
+
+
+<!-- ....Services/Why us... -->
+
+
+
+
+<!-- Featured -->
+
+
+<section class="About-Us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the best interior desinger comapny for best homes</h1>
+            <p>Welcome to Beautiful Homes, where spaces come alive. Our team of passionate designers transforms ordinary spaces into extraordinary experiences. With a fresh and innovative approach to interior design, we create captivating environments that inspire and elevate lives. From residential homes to commercial and hospitality projects, we excel in crafting visually stunning and functional spaces. With personalized service, attention to detail, and a commitment to sustainability, we collaborate with clients to bring their unique vision to life. Explore our portfolio and discover the art of exceptional design.</p>
+            <a href="" class="hero-btn red-btn">Explore Us</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about_us.jpg">
+
+        </div>
+
+    </div>
+    
+</section>
+
+
+
+<!-- testimonial -->
+
+
+
+<!-- call to action -->
+
+
+<!-- footer -->
+<section class="footer">
+    <h3>Our Profiles</h3>
+    <p>You can also visit us here</p>
+
+    <div class="icons">
+        
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        
+    </div>
+
+
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script> 
+</body>
+</html>
